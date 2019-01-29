@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnTangle", "UnTangle\UnTangle.csproj", "{5A1314FB-F8D5-4195-96E6-2000544700D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnTangleCore", "UnTangleCore\UnTangleCore.csproj", "{357BF8B0-1B66-42D0-B3AF-29904F440479}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A1314FB-F8D5-4195-96E6-2000544700D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1314FB-F8D5-4195-96E6-2000544700D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1314FB-F8D5-4195-96E6-2000544700D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1314FB-F8D5-4195-96E6-2000544700D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{357BF8B0-1B66-42D0-B3AF-29904F440479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{357BF8B0-1B66-42D0-B3AF-29904F440479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{357BF8B0-1B66-42D0-B3AF-29904F440479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{357BF8B0-1B66-42D0-B3AF-29904F440479}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54F6D850-DE58-4B8A-8BF1-39F6F3F4C468}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{357BF8B0-1B66-42D0-B3AF-29904F440479}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>UnTangle.Core</RootNamespace>
+    <AssemblyName>UnTangleCore</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlockModelConverter.cs" />
+    <Compile Include="Enums\Device.cs" />
+    <Compile Include="Enums\LedColor.cs" />
+    <Compile Include="Models\AmpCab\Amp\A30FawnBrt.cs" />
+    <Compile Include="Models\AmpCab\Amp\A30FawnNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\AmpBase.cs" />
+    <Compile Include="Models\AmpCab\Amp\ANGLMeteor.cs" />
+    <Compile Include="Models\AmpCab\Amp\ArchetypeClean.cs" />
+    <Compile Include="Models\AmpCab\Amp\Bass\Agua51.cs" />
+    <Compile Include="Models\AmpCab\Amp\Bass\DelSol300.cs" />
+    <Compile Include="Models\AmpCab\Amp\Bass\GCougar800.cs" />
+    <Compile Include="Models\AmpCab\Amp\Bass\SVBeastBrt.cs" />
+    <Compile Include="Models\AmpCab\Amp\Brit2204.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritJ45Brt.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritJ45Nrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritP75Brt.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritP75Nrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritPlexiNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritPlexiBrt.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritPlexiJump.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritTremBrt.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritTremJump.cs" />
+    <Compile Include="Models\AmpCab\Amp\BritTremNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\CaliIVLead.cs" />
+    <Compile Include="Models\AmpCab\Amp\CaliIVR2.cs" />
+    <Compile Include="Models\AmpCab\Amp\CaliIVR1.cs" />
+    <Compile Include="Models\AmpCab\Amp\CaliRectifire.cs" />
+    <Compile Include="Models\AmpCab\Amp\CaliTexasCh1.cs" />
+    <Compile Include="Models\AmpCab\Amp\CaliTexasCh2.cs" />
+    <Compile Include="Models\AmpCab\Amp\Cartographer.cs" />
+    <Compile Include="Models\AmpCab\Amp\DerailedIngrid.cs" />
+    <Compile Include="Models\AmpCab\Amp\DividedDuo.cs" />
+    <Compile Include="Models\AmpCab\Amp\EssexA15.cs" />
+    <Compile Include="Models\AmpCab\Amp\EssexA30.cs" />
+    <Compile Include="Models\AmpCab\Amp\GermanMahadeva.cs" />
+    <Compile Include="Models\AmpCab\Amp\GermanUbersonic.cs" />
+    <Compile Include="Models\AmpCab\Amp\ArchetypeLead.cs" />
+    <Compile Include="Models\AmpCab\Amp\InterstateZed.cs" />
+    <Compile Include="Models\AmpCab\Amp\JazzRivet120.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line6Epic.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line6Badonk.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line62204Mod.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line6Doom.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line6Elektrik.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line6Fatality.cs" />
+    <Compile Include="Models\AmpCab\Amp\Line6Litigator.cs" />
+    <Compile Include="Models\AmpCab\Amp\MailOrderTwin.cs" />
+    <Compile Include="Models\AmpCab\Amp\Mandarin80.cs" />
+    <Compile Include="Models\AmpCab\Amp\MatchstickCh1.cs" />
+    <Compile Include="Models\AmpCab\Amp\MatchstickCh2.cs" />
+    <Compile Include="Models\AmpCab\Amp\MatchstickJump.cs" />
+    <Compile Include="Models\AmpCab\Amp\PlacaterClean.cs" />
+    <Compile Include="Models\AmpCab\Amp\PlacaterDirty.cs" />
+    <Compile Include="Models\AmpCab\Amp\PVPanama.cs" />
+    <Compile Include="Models\AmpCab\Amp\SoloLeadCrunch.cs" />
+    <Compile Include="Models\AmpCab\Amp\SoloLeadClean.cs" />
+    <Compile Include="Models\AmpCab\Amp\SoloLeadOD.cs" />
+    <Compile Include="Models\AmpCab\Amp\SoupPro.cs" />
+    <Compile Include="Models\AmpCab\Amp\StoneAge185.cs" />
+    <Compile Include="Models\AmpCab\Amp\TweedBluesBrt.cs" />
+    <Compile Include="Models\AmpCab\Amp\TweedBluesNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\USDeluxeVib.cs" />
+    <Compile Include="Models\AmpCab\Amp\USDeluxeNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\USDoubleNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\USDoubleVib.cs" />
+    <Compile Include="Models\AmpCab\Amp\USSmallTweed.cs" />
+    <Compile Include="Models\AmpCab\Amp\VoltageQueen.cs" />
+    <Compile Include="Models\AmpCab\Amp\WhoWatt100.cs" />
+    <Compile Include="Models\AmpCab\Cab\Bass\Cab6x10CaliPower.cs" />
+    <Compile Include="Models\AmpCab\Cab\Bass\Cab8x10SVBeast.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12BlueBell.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12Celest12H.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12FieldCoil.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12Lead80.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12MatchG25.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12MatchH30.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x12USDeluxe.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab1x6x9SoupProEllipse.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab2x12BlueBell.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab2x12DoubleC12N.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab2x12Interstate.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab2x12MailC12Q.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab2x12SilverBell.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x10TweedP10R.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x121960T75.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12Blackback30.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4X12CaliV30.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12Greenback20.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12Greenback25.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12MandarinEM.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12SoloLeadEM.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12UberV30.cs" />
+    <Compile Include="Models\AmpCab\Cab\Cab4x12WhoWatt100.cs" />
+    <Compile Include="Models\AmpCab\Cab\CabBase.cs" />
+    <Compile Include="Models\Block.cs" />
+    <Compile Include="Models\Data.cs" />
+    <Compile Include="Models\Delay\AdriaticSwell.cs" />
+    <Compile Include="Models\Delay\PingPong.cs" />
+    <Compile Include="Models\Delay\DualDelay.cs" />
+    <Compile Include="Models\Delay\AdriaticDelay.cs" />
+    <Compile Include="Models\Delay\BucketBrigade.cs" />
+    <Compile Include="Models\Delay\CosmosEcho.cs" />
+    <Compile Include="Models\Delay\DelayPitch.cs" />
+    <Compile Include="Models\Delay\DuckedDelay.cs" />
+    <Compile Include="Models\Delay\ElephantMan.cs" />
+    <Compile Include="Models\Delay\Legacy\LowRes.cs" />
+    <Compile Include="Models\Delay\ModChorusEcho.cs" />
+    <Compile Include="Models\Delay\MultiPass.cs" />
+    <Compile Include="Models\Delay\Multitap6.cs" />
+    <Compile Include="Models\Delay\Multitap4.cs" />
+    <Compile Include="Models\Delay\HarmonyDelay.cs" />
+    <Compile Include="Models\Delay\ReverseDelay.cs" />
+    <Compile Include="Models\Delay\SimpleDelay.cs" />
+    <Compile Include="Models\Delay\SweepEcho.cs" />
+    <Compile Include="Models\Delay\SwellAdriatic.cs" />
+    <Compile Include="Models\Delay\SwellVintageDigital.cs" />
+    <Compile Include="Models\Delay\TransistorTape.cs" />
+    <Compile Include="Models\Delay\VintageDigitalV2.cs" />
+    <Compile Include="Models\Distortion\ValveDriver.cs" />
+    <Compile Include="Models\Distortion\DerangedMaster.cs" />
+    <Compile Include="Models\Distortion\BitCrusher.cs" />
+    <Compile Include="Models\Distortion\ClawthornDrive.cs" />
+    <Compile Include="Models\Distortion\CompulsiveDrive.cs" />
+    <Compile Include="Models\Distortion\DeezOneVintage.cs" />
+    <Compile Include="Models\Distortion\StuporOD.cs" />
+    <Compile Include="Models\Distortion\HedgehogD9.cs" />
+    <Compile Include="Models\Distortion\IndustrialFuzz.cs" />
+    <Compile Include="Models\Distortion\DeezOneMod.cs" />
+    <Compile Include="Models\Distortion\KWB.cs" />
+    <Compile Include="Models\Distortion\KinkyBoost.cs" />
+    <Compile Include="Models\Distortion\Legacy\FacialFuzz.cs" />
+    <Compile Include="Models\Distortion\Legacy\HeavyDistortion.cs" />
+    <Compile Include="Models\Distortion\Megaphone.cs" />
+    <Compile Include="Models\Distortion\Minotaur.cs" />
+    <Compile Include="Models\Distortion\Obsidian7000.cs" />
+    <Compile Include="Models\Distortion\Scream808.cs" />
+    <Compile Include="Models\Distortion\Teemah.cs" />
+    <Compile Include="Models\Distortion\ArbitratorFuzz.cs" />
+    <Compile Include="Models\Distortion\TriangleFuzz.cs" />
+    <Compile Include="Models\Distortion\ThrifterFuzz.cs" />
+    <Compile Include="Models\Distortion\TopSecretOD.cs" />
+    <Compile Include="Models\Distortion\VerminDist.cs" />
+    <Compile Include="Models\Distortion\TycoctaviaFuzz.cs" />
+    <Compile Include="Models\Distortion\WringerFuzz.cs" />
+    <Compile Include="Models\DrmMeta.cs" />
+    <Compile Include="Models\Dsp.cs" />
+    <Compile Include="Models\Dynamics\AutoSwell.cs" />
+    <Compile Include="Models\Dynamics\Comp3BandComp.cs" />
+    <Compile Include="Models\Dynamics\KinkyComp.cs" />
+    <Compile Include="Models\Dynamics\DeluxeComp.cs" />
+    <Compile Include="Models\Dynamics\HardGate.cs" />
+    <Compile Include="Models\Dynamics\LASutdioComp.cs" />
+    <Compile Include="Models\Dynamics\NoiseGate.cs" />
+    <Compile Include="Models\Dynamics\RedSqueeze.cs" />
+    <Compile Include="Models\EQ\CaliQ.cs" />
+    <Compile Include="Models\EQ\Parametric.cs" />
+    <Compile Include="Models\Filter\AutoFilter.cs" />
+    <Compile Include="Models\Filter\MysteryFilter.cs" />
+    <Compile Include="Models\Filter\MutantFilter.cs" />
+    <Compile Include="Models\FxLoop\FXLoopRight.cs" />
+    <Compile Include="Models\FxLoop\FXLoopStereo.cs" />
+    <Compile Include="Models\FxLoop\FXLoopLeft.cs" />
+    <Compile Include="Models\ImpulseResponse\ImpulseResponse1024.cs" />
+    <Compile Include="Models\ImpulseResponse\ImpulseResponse2048.cs" />
+    <Compile Include="Models\Modulation\BubbleVibrato.cs" />
+    <Compile Include="Models\Modulation\Chorus70sChorus.cs" />
+    <Compile Include="Models\Modulation\DynamixFlanger.cs" />
+    <Compile Include="Models\Modulation\PitchRingMod.cs" />
+    <Compile Include="Models\Modulation\PlastiChorus.cs" />
+    <Compile Include="Models\Modulation\DoubleTake.cs" />
+    <Compile Include="Models\Modulation\AMRingMod.cs" />
+    <Compile Include="Models\Modulation\DeluxePhaser.cs" />
+    <Compile Include="Models\Modulation\CourtesanFlange.cs" />
+    <Compile Include="Models\Modulation\HarmonicFlanger.cs" />
+    <Compile Include="Models\Modulation\Tremolo.cs" />
+    <Compile Include="Models\Modulation\BleatChopTrem.cs" />
+    <Compile Include="Models\Modulation\RotaryVibe.cs" />
+    <Compile Include="Models\Modulation\Rotary122.cs" />
+    <Compile Include="Models\Modulation\Rotary145.cs" />
+    <Compile Include="Models\Modulation\Chorus.cs" />
+    <Compile Include="Models\Modulation\GrayFlanger.cs" />
+    <Compile Include="Models\Modulation\HarmonicTremolo.cs" />
+    <Compile Include="Models\Modulation\OpticalTrem.cs" />
+    <Compile Include="Models\Modulation\ScriptModPhase.cs" />
+    <Compile Include="Models\Modulation\TrinityChorus.cs" />
+    <Compile Include="Models\EQ\Graphic10Band.cs" />
+    <Compile Include="Models\EQ\LowCutHighCut.cs" />
+    <Compile Include="Models\EQ\Simple3Band.cs" />
+    <Compile Include="Models\Footswitch.cs" />
+    <Compile Include="Models\FootswitchBlock.cs" />
+    <Compile Include="Models\FootswitchDsp.cs" />
+    <Compile Include="Models\Global.cs" />
+    <Compile Include="Models\Input.cs" />
+    <Compile Include="Models\Join.cs" />
+    <Compile Include="Models\Looper\Looper.cs" />
+    <Compile Include="Models\Meta.cs" />
+    <Compile Include="Models\Modulation\Mod60sBiasTrem.cs" />
+    <Compile Include="Models\Modulation\UbiquitousVibe.cs" />
+    <Compile Include="Models\Output.cs" />
+    <Compile Include="Models\Pitch\Synth3OSCSynth.cs" />
+    <Compile Include="Models\Pitch\Synth4OSCGenerator.cs" />
+    <Compile Include="Models\Pitch\Synth3NoteGenerator.cs" />
+    <Compile Include="Models\Pitch\TwinHarmony.cs" />
+    <Compile Include="Models\Pitch\DualPitch.cs" />
+    <Compile Include="Models\Pitch\PitchWham.cs" />
+    <Compile Include="Models\Pitch\SimplePitch.cs" />
+    <Compile Include="Models\PresetFile.cs" />
+    <Compile Include="Models\Reverb\DoubleTank.cs" />
+    <Compile Include="Models\Reverb\Ganymede.cs" />
+    <Compile Include="Models\Reverb\Searchlights.cs" />
+    <Compile Include="Models\Reverb\Plateaux.cs" />
+    <Compile Include="Models\Reverb\Glitz.cs" />
+    <Compile Include="Models\Reverb\Legacy\Chamber.cs" />
+    <Compile Include="Models\Reverb\Legacy\Octo.cs" />
+    <Compile Include="Models\Reverb\Legacy\Hall.cs" />
+    <Compile Include="Models\Reverb\Legacy\Plate.cs" />
+    <Compile Include="Models\Reverb\Legacy\Reverb63Spring.cs" />
+    <Compile Include="Models\Reverb\Legacy\Room.cs" />
+    <Compile Include="Models\Reverb\Legacy\Spring.cs" />
+    <Compile Include="Models\SendReturn\ReturnStereoLR.cs" />
+    <Compile Include="Models\SendReturn\ReturnRight.cs" />
+    <Compile Include="Models\SendReturn\ReturnLeft.cs" />
+    <Compile Include="Models\SendReturn\SendStereoLR.cs" />
+    <Compile Include="Models\SendReturn\SendRight.cs" />
+    <Compile Include="Models\SendReturn\SendLeft.cs" />
+    <Compile Include="Models\SnapshotBase.cs" />
+    <Compile Include="Models\SnapshotBlockState.cs" />
+    <Compile Include="Models\SnapshotBlockValue.cs" />
+    <Compile Include="Models\SnapshotController.cs" />
+    <Compile Include="Models\SnapshotDsp.cs" />
+    <Compile Include="Models\Split.cs" />
+    <Compile Include="Models\Tone.cs" />
+    <Compile Include="Models\VolumePan\Gain.cs" />
+    <Compile Include="Models\VolumePan\Volume.cs" />
+    <Compile Include="Models\Wah\Conductor.cs" />
+    <Compile Include="Models\Wah\Colorful.cs" />
+    <Compile Include="Models\Wah\Vetta.cs" />
+    <Compile Include="Models\Wah\ChromeCustom.cs" />
+    <Compile Include="Models\Wah\Chrome.cs" />
+    <Compile Include="Models\Wah\Fassel.cs" />
+    <Compile Include="Models\Wah\Throaty.cs" />
+    <Compile Include="Models\Wah\Teardrop310.cs" />
+    <Compile Include="Models\Wah\UkWah846.cs" />
+    <Compile Include="Models\Wah\Weeper.cs" />
+    <Compile Include="ModelTypeHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Strings\ConstAmp.cs" />
+    <Compile Include="Strings\ConstCab.cs" />
+    <Compile Include="Strings\ConstDelay.cs" />
+    <Compile Include="Strings\ConstDistortion.cs" />
+    <Compile Include="Strings\ConstDynamics.cs" />
+    <Compile Include="Strings\ConstEQ.cs" />
+    <Compile Include="Strings\ConstFilter.cs" />
+    <Compile Include="Strings\ConstSendReturn.cs" />
+    <Compile Include="Strings\ConstFxLoop.cs" />
+    <Compile Include="Strings\ConstIR.cs" />
+    <Compile Include="Strings\ConstLooper.cs" />
+    <Compile Include="Strings\ConstModulation.cs" />
+    <Compile Include="Strings\ConstPitch.cs" />
+    <Compile Include="Strings\ConstReverb.cs" />
+    <Compile Include="Strings\ConstVolPan.cs" />
+    <Compile Include="Strings\ConstWah.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\AmpCab\Preamp\" />
+    <Folder Include="Models\Modulation\Legacy\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
