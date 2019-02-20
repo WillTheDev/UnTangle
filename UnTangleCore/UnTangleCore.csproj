@@ -254,6 +254,11 @@
     <Compile Include="Models\PresetFile.cs" />
     <Compile Include="Models\Reverb\DoubleTank.cs" />
     <Compile Include="Models\Reverb\Ganymede.cs" />
+    <Compile Include="Models\Reverb\Legacy\Particle.cs" />
+    <Compile Include="Models\Reverb\Legacy\Ducking.cs" />
+    <Compile Include="Models\Reverb\Legacy\Echo.cs" />
+    <Compile Include="Models\Reverb\Legacy\Cave.cs" />
+    <Compile Include="Models\Reverb\Legacy\Tile.cs" />
     <Compile Include="Models\Reverb\Searchlights.cs" />
     <Compile Include="Models\Reverb\Plateaux.cs" />
     <Compile Include="Models\Reverb\Glitz.cs" />

@@ -718,8 +718,17 @@ namespace UnTangle.Core
                     case ConstReverb.MODEL_63_SPRING:
                         modelBlock = new Reverb63Spring();
                         break;
+                    case ConstReverb.MODEL_CAVE:
+                        modelBlock = new Cave();
+                        break;
                     case ConstReverb.MODEL_CHAMBER:
                         modelBlock = new Chamber();
+                        break;
+                    case ConstReverb.MODEL_DUCKING:
+                        modelBlock = new Ducking();
+                        break;
+                    case ConstReverb.MODEL_ECHO:
+                        modelBlock = new Echo();
                         break;
                     case ConstReverb.MODEL_HALL:
                         modelBlock = new Hall();
@@ -736,6 +745,9 @@ namespace UnTangle.Core
                     case ConstReverb.MODEL_GANYMEDE:
                         modelBlock = new Ganymede();
                         break;
+                    case ConstReverb.MODEL_PARTICLE:
+                        modelBlock = new Particle();
+                        break;
                     case ConstReverb.MODEL_PLATE:
                         modelBlock = new Plate();
                         break;
@@ -747,6 +759,9 @@ namespace UnTangle.Core
                         break;
                     case ConstReverb.MODEL_SEARCHLIGHTS:
                         modelBlock = new Searchlights();
+                        break;
+                    case ConstReverb.MODEL_TILE:
+                        modelBlock = new Tile();
                         break;
                     #endregion Reverb
 
