@@ -77,11 +77,51 @@
         public const string DISP_VALVE_DRIVER = "Valve Driver";
         public const string MODEL_VALVE_DRIVER = "HD2_DistValveDriver";
 
-        // Legacy
+        #region Legacy
+        public const string DISP_BUZZ_SAW = "Buzz Saw";
+        public const string MODEL_BUZZ_SAW = "HD2_DM4BuzzSaw";
+
+        public const string DISP_CLASSIC_DISTORTION = "Classic Distortion";
+        public const string MODEL_CLASSIC_DISTORTION = "HD2_DM4ClassicDistortion";
+
+        public const string DISP_COLOR_DRIVE = "Color Drive";
+        public const string MODEL_COLOR_DRIVE = "HD2_DM4ColorDrive";
+
         public const string DISP_FACIAL_FUZZ = "DM4 Facial Fuzz";
         public const string MODEL_FACIAL_FUZZ = "HD2_DM4FacialFuzz";
 
         public const string DISP_HEAVY_DISTORTION = "Heavy Distortion";
         public const string MODEL_HEAVY_DISTORTION = "HD2_DM4HeavyDistortion";
+
+        public const string DISP_JET_FUZZ = "Jet Fuzz";
+        public const string MODEL_JET_FUZZ = "HD2_DM4JetFuzz";
+
+        public const string DISP_JUMBO_FUZZ = "Jumbo Fuzz";
+        public const string MODEL_JUMBO_FUZZ = "HD2_DM4JumboFuzz";
+
+        public const string DISP_LINE_6_DRIVE = "Line6 Drive";
+        public const string MODEL_LINE_6_DRIVE = "HD2_DM4Line6Drive";
+
+        public const string DISP_LINE_6_DISTORTION = "Line6 Distortion";
+        public const string MODEL_LINE_6_DISTORTION = "HD2_DM4Line6Distortion";
+
+        public const string DISP_TUBE_DRIVE = "Tube Drive";
+        public const string MODEL_TUBE_DRIVE = "HD2_DM4TubeDrive";
+
+        public const string DISP_OCTAVE_FUZZ = "Octave Fuzz";
+        public const string MODEL_OCTAVE_FUZZ = "HD2_DM4OctaveFuzz";
+
+        public const string DISP_OVERDRIVE = "Overdrive";
+        public const string MODEL_OVERDRIVE = "HD2_DM4Overdrive";
+
+        public const string DISP_FUZZ_PI = "Fuzz Pi";
+        public const string MODEL_FUZZ_PI = "HD2_DM4FuzzPi";
+
+        public const string DISP_SCREAMER = "Screamer";
+        public const string MODEL_SCREAMER = "HD2_DM4Screamer";
+
+        public const string DISP_SUB_OCTAVE_FUZZ = "Sub Octave Fuzz";
+        public const string MODEL_SUB_OCTAVE_FUZZ = "HD2_DM4SubOctFuzz";
+        #endregion
     };
 }

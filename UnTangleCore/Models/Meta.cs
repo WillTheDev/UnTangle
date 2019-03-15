@@ -20,12 +20,12 @@ namespace UnTangle.Core.Models
         {
             get
             {
-                return (new DateTimeOffset(LocalModifiedDate).ToUnixTimeSeconds());
+                return (new DateTimeOffset(LocalModifiedDate.Ticks, DateTimeOffset.Now.Offset).ToUnixTimeSeconds());
             }
             set
             {
                 // Unix time-stamp is seconds past epoch
-                LocalModifiedDate = DateTimeOffset.FromUnixTimeSeconds(value).UtcDateTime;
+                LocalModifiedDate = DateTimeOffset.FromUnixTimeSeconds(value).ToLocalTime();
             }
         }
 
@@ -35,6 +35,6 @@ namespace UnTangle.Core.Models
         /// <summary>
         /// Stores the Local Date and Time converted from the file time-stamp.
         /// </summary>
-        public DateTime LocalModifiedDate { get; set; }
+        public DateTimeOffset LocalModifiedDate { get; set; }
     }
 }

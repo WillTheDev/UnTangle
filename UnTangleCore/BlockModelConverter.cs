@@ -504,6 +504,45 @@ namespace UnTangle.Core
                     case ConstDistortion.MODEL_WRINGER_FUZZ:
                         modelBlock = new WringerFuzz();
                         break;
+                    case ConstDistortion.MODEL_TUBE_DRIVE:
+                        modelBlock = new TubeDrive();
+                        break;
+                    case ConstDistortion.MODEL_SCREAMER:
+                        modelBlock = new Screamer();
+                        break;
+                    case ConstDistortion.MODEL_OVERDRIVE:
+                        modelBlock = new Overdrive();
+                        break;
+                    case ConstDistortion.MODEL_CLASSIC_DISTORTION:
+                        modelBlock = new ClassicDistortion();
+                        break;
+                    case ConstDistortion.MODEL_COLOR_DRIVE:
+                        modelBlock = new ColorDrive();
+                        break;
+                    case ConstDistortion.MODEL_BUZZ_SAW:
+                        modelBlock = new BuzzSaw();
+                        break;
+                    case ConstDistortion.MODEL_JUMBO_FUZZ:
+                        modelBlock = new JumboFuzz();
+                        break;
+                    case ConstDistortion.MODEL_OCTAVE_FUZZ:
+                        modelBlock = new OctaveFuzz();
+                        break;
+                    case ConstDistortion.MODEL_FUZZ_PI:
+                        modelBlock = new FuzzPi();
+                        break;
+                    case ConstDistortion.MODEL_JET_FUZZ:
+                        modelBlock = new JetFuzz();
+                        break;
+                    case ConstDistortion.MODEL_LINE_6_DRIVE:
+                        modelBlock = new Line6Drive();
+                        break;
+                    case ConstDistortion.MODEL_LINE_6_DISTORTION:
+                        modelBlock = new Line6Distortion();
+                        break;
+                    case ConstDistortion.MODEL_SUB_OCTAVE_FUZZ:
+                        modelBlock = new SubOctaveFuzz();
+                        break;
                     #endregion Distortion
 
 
