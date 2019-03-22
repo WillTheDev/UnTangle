@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public OctaveFuzz()
         {
             DisplayName = ConstDistortion.DISP_OCTAVE_FUZZ;
+            IsLegacy = true;
         }
 
         [DataMember]

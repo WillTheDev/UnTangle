@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public FacialFuzz()
         {
             DisplayName = ConstDistortion.DISP_FACIAL_FUZZ;
+            IsLegacy = true;
         }
 
         [DataMember]

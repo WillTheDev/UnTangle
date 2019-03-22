@@ -423,6 +423,48 @@ namespace UnTangle.Core
                     case ConstDelay.MODEL_MULTITAP_6:
                         modelBlock = new Multitap6();
                         break;
+                    case ConstDelay.MODEL_DL4_PING_PONG:
+                        modelBlock = new DL4PingPong();
+                        break;
+                    case ConstDelay.MODEL_DYNAMIC_DELAY_STEREO:
+                        modelBlock = new DynamicDelayStereo();
+                        break;
+                    case ConstDelay.MODEL_STEREO_DELAY:
+                        modelBlock = new StereoDelay();
+                        break;
+                    case ConstDelay.MODEL_DL4_DIGITAL_DELAY:
+                        modelBlock = new DL4DigitalDelay();
+                        break;
+                    case ConstDelay.MODEL_DELAY_WITH_MOD:
+                        modelBlock = new DelayWithMod();
+                        break;
+                    case ConstDelay.MODEL_DL4_REVERSE_DELAY:
+                        modelBlock = new DL4ReverseDelay();
+                        break;
+                    case ConstDelay.MODEL_TUBE_ECHO_STEREO:
+                        modelBlock = new TubeEchoStereo();
+                        break;
+                    case ConstDelay.MODEL_TAPE_ECHO_STEREO:
+                        modelBlock = new TapeEchoStereo();
+                        break;
+                    case ConstDelay.MODEL_SWEEP_ECHO_STEREO:
+                        modelBlock = new SweepEchoStereo();
+                        break;
+                    case ConstDelay.MODEL_ECHO_PLATTER:
+                        modelBlock = new EchoPlatter();
+                        break;
+                    case ConstDelay.MODEL_ANALOG_DELAY:
+                        modelBlock = new AnalogDelay();
+                        break;
+                    case ConstDelay.MODEL_ANALOG_DELAY_MOD:
+                        modelBlock = new AnalogDelayMod();
+                        break;
+                    case ConstDelay.MODEL_AUTO_VOL_DELAY:
+                        modelBlock = new AutoVolDelay();
+                        break;
+                    case ConstDelay.MODEL_MULTIHEAD_DELAY:
+                        modelBlock = new MultiheadDelay();
+                        break;
                     #endregion Delay
 
 

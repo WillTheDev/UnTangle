@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public Overdrive()
         {
             DisplayName = ConstDistortion.DISP_OVERDRIVE;
+            IsLegacy = true;
         }
 
         [DataMember]

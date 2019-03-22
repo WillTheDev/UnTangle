@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public Screamer()
         {
             DisplayName = ConstDistortion.DISP_SCREAMER;
+            IsLegacy = true;
         }
 
         [DataMember]

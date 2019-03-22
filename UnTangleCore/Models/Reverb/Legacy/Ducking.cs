@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Ducking()
         {
             DisplayName = ConstReverb.DISP_DUCKING;
+            IsLegacy = true;
         }
 
         [DataMember]

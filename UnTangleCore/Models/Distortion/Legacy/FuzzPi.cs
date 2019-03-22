@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public FuzzPi()
         {
             DisplayName = ConstDistortion.DISP_FUZZ_PI;
+            IsLegacy = true;
         }
 
         [DataMember]

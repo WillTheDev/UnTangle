@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public ColorDrive()
         {
             DisplayName = ConstDistortion.DISP_COLOR_DRIVE;
+            IsLegacy = true;
         }
 
         [DataMember]

@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public BuzzSaw()
         {
             DisplayName = ConstDistortion.DISP_BUZZ_SAW;
+            IsLegacy = true;
         }
 
         [DataMember]

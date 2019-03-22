@@ -53,5 +53,10 @@ namespace UnTangle.Core.Models
                 return (ModelTypeHelper.ParseModelType(Type));
             }
         }
+
+        /// <summary>
+        /// Flag that indicates if this is a legacy model.
+        /// </summary>
+        public bool IsLegacy { get; set; } = false;
     };
 }

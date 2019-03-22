@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public TubeDrive()
         {
             DisplayName = ConstDistortion.DISP_TUBE_DRIVE;
+            IsLegacy = true;
         }
 
         [DataMember]

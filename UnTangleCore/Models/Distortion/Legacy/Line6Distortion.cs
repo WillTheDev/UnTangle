@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public Line6Distortion()
         {
             DisplayName = ConstDistortion.DISP_LINE_6_DISTORTION;
+            IsLegacy = true;
         }
 
         [DataMember]

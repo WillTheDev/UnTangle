@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Tile()
         {
             DisplayName = ConstReverb.DISP_TILE;
+            IsLegacy = true;
         }
 
         [DataMember]

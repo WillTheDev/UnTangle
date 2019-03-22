@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Spring()
         {
             DisplayName = ConstReverb.DISP_SPRING;
+            IsLegacy = true;
         }
 
         [DataMember]

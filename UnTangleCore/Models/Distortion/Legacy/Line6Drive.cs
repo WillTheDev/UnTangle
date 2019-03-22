@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public Line6Drive()
         {
             DisplayName = ConstDistortion.DISP_LINE_6_DRIVE;
+            IsLegacy = true;
         }
 
         [DataMember]

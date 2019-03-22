@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Particle()
         {
             DisplayName = ConstReverb.DISP_PARTICLE;
+            IsLegacy = true;
         }
 
         [DataMember]

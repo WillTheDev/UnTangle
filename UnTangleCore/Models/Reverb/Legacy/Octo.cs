@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Octo()
         {
             DisplayName = ConstReverb.DISP_OCTO;
+            IsLegacy = true;
         }
 
         [DataMember]

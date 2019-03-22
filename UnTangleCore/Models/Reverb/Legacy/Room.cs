@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Room()
         {
             DisplayName = ConstReverb.DISP_ROOM;
+            IsLegacy = true;
         }
 
         [DataMember]

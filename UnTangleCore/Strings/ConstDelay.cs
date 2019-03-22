@@ -71,8 +71,50 @@
         public const string MODEL_VINTAGE_DIGITAL_V2 = "HD2_DelayVintageDigitalV2";
 
         #region Legacy
+        public const string DISP_ANALOG_DELAY = "Analog Delay";
+        public const string MODEL_ANALOG_DELAY = "HD2_DL4AnalogDelayStereo";
+
+        public const string DISP_ANALOG_DELAY_MOD = "Analog Delay Mod";
+        public const string MODEL_ANALOG_DELAY_MOD = "HD2_DL4AnalogDelayStereoMod";
+
+        public const string DISP_AUTO_VOL_DELAY = "Auto Volume Delay";
+        public const string MODEL_AUTO_VOL_DELAY = "HD2_DL4AutoVolStereo";
+
+        public const string DISP_DELAY_WITH_MOD = "Delay With Mod";
+        public const string MODEL_DELAY_WITH_MOD = "HD2_DL4DigDelayWithMod";
+
+        public const string DISP_DL4_DIGITAL_DELAY = "DL4 Digital Delay";
+        public const string MODEL_DL4_DIGITAL_DELAY = "HD2_DL4DigDelay";
+
+        public const string DISP_DYNAMIC_DELAY_STEREO = "Dynamic Delay Stereo";
+        public const string MODEL_DYNAMIC_DELAY_STEREO = "HD2_DL4DynamicDelayStereo";
+
+        public const string DISP_ECHO_PLATTER = "Echo Platter";
+        public const string MODEL_ECHO_PLATTER = "HD2_DL4EchoPlatterStereo";
+
         public const string DISP_LOW_RES = "DL4 Low Res";
         public const string MODEL_LOW_RES = "HD2_DL4LowResDelay";
+
+        public const string DISP_MULTIHEAD_DELAY = "Multihead Delay";
+        public const string MODEL_MULTIHEAD_DELAY = "HD2_DL4MultiheadStereo";
+
+        public const string DISP_DL4_PING_PONG = "DL4 Ping Pong";
+        public const string MODEL_DL4_PING_PONG = "HD2_DL4PingPong";
+
+        public const string DISP_DL4_REVERSE_DELAY = "DL4 Reverse Delay";
+        public const string MODEL_DL4_REVERSE_DELAY = "HD2_DL4Reverse";
+
+        public const string DISP_STEREO_DELAY = "Stereo Delay";
+        public const string MODEL_STEREO_DELAY = "HD2_DL4StereoDelay";
+
+        public const string DISP_SWEEP_ECHO_STEREO = "Sweep Echo Stereo";
+        public const string MODEL_SWEEP_ECHO_STEREO = "HD2_DL4SweepEchoStereo";
+
+        public const string DISP_TAPE_ECHO_STEREO = "Tape Echo Stereo";
+        public const string MODEL_TAPE_ECHO_STEREO = "HD2_DL4TapeEchoStereo";
+
+        public const string DISP_TUBE_ECHO_STEREO = "Tube Echo Stereo";
+        public const string MODEL_TUBE_ECHO_STEREO = "HD2_DL4TubeEchoStereo";
         #endregion Legacy
     };
 }

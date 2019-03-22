@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public ClassicDistortion()
         {
             DisplayName = ConstDistortion.DISP_CLASSIC_DISTORTION;
+            IsLegacy = true;
         }
 
         [DataMember]

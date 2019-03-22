@@ -4,31 +4,25 @@ using UnTangle.Core.Strings;
 namespace UnTangle.Core.Models.Delay.Legacy
 {
     /// <summary>
-    /// Specific settings for the Low Res delay model.
+    /// Specific settings for the Legacy Dynamic Delay Stereo delay model.
     /// </summary>
     [DataContract]
-    public class LowRes : Block
+    public class DynamicDelayStereo : Block
     {
         /// <summary>
         /// CTOR.  Sets the display name.
         /// </summary>
-        public LowRes()
+        public DynamicDelayStereo()
         {
-            DisplayName = ConstDelay.DISP_LOW_RES;
+            DisplayName = ConstDelay.DISP_DYNAMIC_DELAY_STEREO;
             IsLegacy = true;
         }
 
         [DataMember]
-        public float Tone { get; set; }
+        public float Ducking { get; set; }
 
         [DataMember]
         public float Feedback { get; set; }
-
-        [DataMember]
-        public float Time { get; set; }
-        
-        [DataMember]
-        public int SyncSelect1 { get; set; }
 
         [DataMember]
         public float Level { get; set; }
@@ -40,6 +34,12 @@ namespace UnTangle.Core.Models.Delay.Legacy
         public bool TempoSync1 { get; set; }
 
         [DataMember]
-        public float Res { get; set; }
+        public int SyncSelect1 { get; set; }
+
+        [DataMember]
+        public float Threshold { get; set; }
+
+        [DataMember]
+        public float Time { get; set; }
     };
 }

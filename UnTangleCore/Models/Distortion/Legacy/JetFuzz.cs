@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Distortion.Legacy
         public JetFuzz()
         {
             DisplayName = ConstDistortion.DISP_JET_FUZZ;
+            IsLegacy = true;
         }
 
         [DataMember]

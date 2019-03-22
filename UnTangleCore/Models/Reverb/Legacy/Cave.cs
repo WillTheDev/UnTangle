@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Reverb.Legacy
         public Cave()
         {
             DisplayName = ConstReverb.DISP_CAVE;
+            IsLegacy = true;
         }
 
         [DataMember]

@@ -4,42 +4,42 @@ using UnTangle.Core.Strings;
 namespace UnTangle.Core.Models.Delay.Legacy
 {
     /// <summary>
-    /// Specific settings for the Low Res delay model.
+    /// Specific settings for the Legacy Digital delay model.
     /// </summary>
     [DataContract]
-    public class LowRes : Block
+    public class DL4DigitalDelay : Block
     {
         /// <summary>
         /// CTOR.  Sets the display name.
         /// </summary>
-        public LowRes()
+        public DL4DigitalDelay()
         {
-            DisplayName = ConstDelay.DISP_LOW_RES;
+            DisplayName = ConstDelay.DISP_DL4_DIGITAL_DELAY;
             IsLegacy = true;
         }
 
         [DataMember]
-        public float Tone { get; set; }
+        public float Bass { get; set; }
 
         [DataMember]
         public float Feedback { get; set; }
-
-        [DataMember]
-        public float Time { get; set; }
-        
-        [DataMember]
-        public int SyncSelect1 { get; set; }
 
         [DataMember]
         public float Level { get; set; }
 
         [DataMember]
         public float Mix { get; set; }
+        
+        [DataMember]
+        public int SyncSelect1 { get; set; }
 
         [DataMember]
         public bool TempoSync1 { get; set; }
 
         [DataMember]
-        public float Res { get; set; }
+        public float Time { get; set; }
+
+        [DataMember]
+        public float Treble { get; set; }
     };
 }
