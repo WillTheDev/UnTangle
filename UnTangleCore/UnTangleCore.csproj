@@ -229,6 +229,17 @@
     <Compile Include="Models\EQ\CaliQ.cs" />
     <Compile Include="Models\EQ\Parametric.cs" />
     <Compile Include="Models\Filter\AutoFilter.cs" />
+    <Compile Include="Models\Filter\Legacy\SlowFilter.cs" />
+    <Compile Include="Models\Filter\Legacy\CometTrails.cs" />
+    <Compile Include="Models\Filter\Legacy\TronDown.cs" />
+    <Compile Include="Models\Filter\Legacy\TronUp.cs" />
+    <Compile Include="Models\Filter\Legacy\Qfilter.cs" />
+    <Compile Include="Models\Filter\Legacy\ObiWah.cs" />
+    <Compile Include="Models\Filter\Legacy\Tron.cs" />
+    <Compile Include="Models\Filter\Legacy\Seeker.cs" />
+    <Compile Include="Models\Filter\Legacy\Throbber.cs" />
+    <Compile Include="Models\Filter\Legacy\SpinCycle.cs" />
+    <Compile Include="Models\Filter\Legacy\VoiceBox.cs" />
     <Compile Include="Models\Filter\MysteryFilter.cs" />
     <Compile Include="Models\Filter\MutantFilter.cs" />
     <Compile Include="Models\FxLoop\FXLoopRight.cs" />

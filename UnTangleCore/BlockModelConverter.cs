@@ -12,6 +12,7 @@ using UnTangle.Core.Models.Distortion;
 using UnTangle.Core.Models.Distortion.Legacy;
 using UnTangle.Core.Models.EQ;
 using UnTangle.Core.Models.Filter;
+using UnTangle.Core.Models.Filter.Legacy;
 using UnTangle.Core.Models.FxLoop;
 using UnTangle.Core.Models.ImpulseResponse;
 using UnTangle.Core.Models.Looper;
@@ -663,6 +664,39 @@ namespace UnTangle.Core
                         break;
                     case ConstFilter.MODEL_MYSTERY_FILTER:
                         modelBlock = new MysteryFilter();
+                        break;
+                    case ConstFilter.MODEL_VOICE_BOX:
+                        modelBlock = new VoiceBox();
+                        break;
+                    case ConstFilter.MODEL_TRON:
+                        modelBlock = new Tron();
+                        break;
+                    case ConstFilter.MODEL_Q_FILTER:
+                        modelBlock = new QFilter();
+                        break;
+                    case ConstFilter.MODEL_SEEKER:
+                        modelBlock = new Seeker();
+                        break;
+                    case ConstFilter.MODEL_OBI_WAH:
+                        modelBlock = new ObiWah();
+                        break;
+                    case ConstFilter.MODEL_TRON_UP:
+                        modelBlock = new TronUp();
+                        break;
+                    case ConstFilter.MODEL_TRON_DOWN:
+                        modelBlock = new TronDown();
+                        break;
+                    case ConstFilter.MODEL_THROBBER:
+                        modelBlock = new Throbber();
+                        break;
+                    case ConstFilter.MODEL_SLOW_FILTER:
+                        modelBlock = new SlowFilter();
+                        break;
+                    case ConstFilter.MODEL_SPIN_CYCLE:
+                        modelBlock = new SpinCycle();
+                        break;
+                    case ConstFilter.MODEL_COMET_TRAILS:
+                        modelBlock = new CometTrails();
                         break;
                     #endregion Filter
 
