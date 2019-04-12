@@ -8,6 +8,7 @@ using UnTangle.Core.Models.AmpCab.Cab.Bass;
 using UnTangle.Core.Models.Delay;
 using UnTangle.Core.Models.Delay.Legacy;
 using UnTangle.Core.Models.Dynamics;
+using UnTangle.Core.Models.Dynamics.Legacy;
 using UnTangle.Core.Models.Distortion;
 using UnTangle.Core.Models.Distortion.Legacy;
 using UnTangle.Core.Models.EQ;
@@ -615,6 +616,27 @@ namespace UnTangle.Core
                         break;
                     case ConstDynamics.MODEL_KINKY_COMP:
                         modelBlock = new KinkyComp();
+                        break;
+                    case ConstDynamics.MODEL_TUBE_COMP:
+                        modelBlock = new TubeComp();
+                        break;
+                    case ConstDynamics.MODEL_RED_COMP:
+                        modelBlock = new RedComp();
+                        break;
+                    case ConstDynamics.MODEL_BLUE_COMP:
+                        modelBlock = new BlueComp();
+                        break;
+                    case ConstDynamics.MODEL_BLUE_COMP_TREB:
+                        modelBlock = new BlueCompTreb();
+                        break;
+                    case ConstDynamics.MODEL_VETTA_COMP:
+                        modelBlock = new VettaComp();
+                        break;
+                    case ConstDynamics.MODEL_VETTA_JUICE:
+                        modelBlock = new VettaJuice();
+                        break;
+                    case ConstDynamics.MODEL_BOOST_COMP:
+                        modelBlock = new BoostComp();
                         break;
                     #endregion Dynamics
 

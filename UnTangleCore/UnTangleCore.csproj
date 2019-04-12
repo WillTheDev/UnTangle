@@ -224,6 +224,13 @@
     <Compile Include="Models\Dynamics\DeluxeComp.cs" />
     <Compile Include="Models\Dynamics\HardGate.cs" />
     <Compile Include="Models\Dynamics\LASutdioComp.cs" />
+    <Compile Include="Models\Dynamics\Legacy\BoostComp.cs" />
+    <Compile Include="Models\Dynamics\Legacy\VettaCompJuice.cs" />
+    <Compile Include="Models\Dynamics\Legacy\VettaComp.cs" />
+    <Compile Include="Models\Dynamics\Legacy\BlueCompTreb.cs" />
+    <Compile Include="Models\Dynamics\Legacy\BlueComp.cs" />
+    <Compile Include="Models\Dynamics\Legacy\RedComp.cs" />
+    <Compile Include="Models\Dynamics\Legacy\TubeComp.cs" />
     <Compile Include="Models\Dynamics\NoiseGate.cs" />
     <Compile Include="Models\Dynamics\RedSqueeze.cs" />
     <Compile Include="Models\EQ\CaliQ.cs" />
@@ -353,7 +360,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\AmpCab\Preamp\" />
-    <Folder Include="Models\Dynamics\Legacy\" />
     <Folder Include="Models\Modulation\Legacy\" />
   </ItemGroup>
   <ItemGroup>

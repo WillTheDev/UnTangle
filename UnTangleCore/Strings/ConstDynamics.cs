@@ -28,5 +28,28 @@
 
         public const string DISP_KINKY_COMP = "Kinky Comp";
         public const string MODEL_KINKY_COMP = "HD2_CompressorKinkyComp";
+
+        #region Legacy
+        public const string DISP_BLUE_COMP = "Blue Comp";
+        public const string MODEL_BLUE_COMP = "HD2_DM4BlueComp";
+
+        public const string DISP_BLUE_COMP_TREB = "Blue Comp Treble";
+        public const string MODEL_BLUE_COMP_TREB = "HD2_DM4BlueCompTreb";
+
+        public const string DISP_BOOST_COMP = "Boost Comp";
+        public const string MODEL_BOOST_COMP = "HD2_DM4BoostComp";
+
+        public const string DISP_TUBE_COMP = "Tube Comp";
+        public const string MODEL_TUBE_COMP = "HD2_DM4TubeComp";
+
+        public const string DISP_RED_COMP = "Red Comp";
+        public const string MODEL_RED_COMP = "HD2_DM4RedComp";
+
+        public const string DISP_VETTA_COMP = "Vetta Comp";
+        public const string MODEL_VETTA_COMP = "HD2_DM4VettaComp";
+
+        public const string DISP_VETTA_JUICE = "Vetta Juice";
+        public const string MODEL_VETTA_JUICE = "HD2_DM4VettaJuice";
+        #endregion
     };
 }
