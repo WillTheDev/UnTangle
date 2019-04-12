@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public Seeker()
         {
             DisplayName = ConstFilter.DISP_SEEKER;
+            IsLegacy = true;
         }
 
         [DataMember]

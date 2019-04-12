@@ -16,6 +16,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public CometTrails()
         {
             DisplayName = ConstFilter.DISP_COMET_TRAILS;
+            IsLegacy = true;
         }
 
         [DataMember]

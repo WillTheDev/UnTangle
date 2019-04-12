@@ -16,6 +16,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public QFilter()
         {
             DisplayName = ConstFilter.DISP_Q_FILTER;
+            IsLegacy = true;
         }
 
         [DataMember]

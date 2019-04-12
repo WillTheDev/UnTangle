@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public Tron()
         {
             DisplayName = ConstFilter.DISP_TRON;
+            IsLegacy = true;
         }
 
         [DataMember]

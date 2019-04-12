@@ -16,6 +16,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public ObiWah()
         {
             DisplayName = ConstFilter.DISP_OBI_WAH;
+            IsLegacy = true;
         }
 
         [DataMember]

@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public Throbber()
         {
             DisplayName = ConstFilter.DISP_THROBBER;
+            IsLegacy = true;
         }
 
         [DataMember]

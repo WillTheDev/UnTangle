@@ -353,6 +353,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\AmpCab\Preamp\" />
+    <Folder Include="Models\Dynamics\Legacy\" />
     <Folder Include="Models\Modulation\Legacy\" />
   </ItemGroup>
   <ItemGroup>

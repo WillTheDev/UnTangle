@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public VoiceBox()
         {
             DisplayName = ConstFilter.DISP_VOICE_BOX;
+            IsLegacy = true;
         }
 
         [DataMember]

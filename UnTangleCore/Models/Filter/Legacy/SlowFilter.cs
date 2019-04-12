@@ -15,6 +15,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public SlowFilter()
         {
             DisplayName = ConstFilter.DISP_SLOW_FILTER;
+            IsLegacy = true;
         }
 
         [DataMember]

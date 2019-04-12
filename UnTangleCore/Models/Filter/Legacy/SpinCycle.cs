@@ -16,6 +16,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public SpinCycle()
         {
             DisplayName = ConstFilter.DISP_SPIN_CYCLE;
+            IsLegacy = true;
         }
 
         [DataMember]

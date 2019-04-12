@@ -16,6 +16,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public TronUp()
         {
             DisplayName = ConstFilter.DISP_TRON_UP;
+            IsLegacy = true;
         }
 
         [DataMember]

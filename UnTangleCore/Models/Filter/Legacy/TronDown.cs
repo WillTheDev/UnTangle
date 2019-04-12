@@ -16,6 +16,7 @@ namespace UnTangle.Core.Models.Filter.Legacy
         public TronDown()
         {
             DisplayName = ConstFilter.DISP_TRON_DOWN;
+            IsLegacy = true;
         }
 
         [DataMember]
