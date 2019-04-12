@@ -23,6 +23,7 @@ using UnTangle.Core.Models.Reverb.Legacy;
 using UnTangle.Core.Models.SendReturn;
 using UnTangle.Core.Models.VolumePan;
 using UnTangle.Core.Models.Pitch;
+using UnTangle.Core.Models.Pitch.Legacy;
 using UnTangle.Core.Models.Wah;
 
 using UnTangle.Core.Strings;
@@ -842,6 +843,27 @@ namespace UnTangle.Core
                         break;
                     case ConstPitch.MODEL_3_OSC_SYNTH:
                         modelBlock = new Synth3OSCSynth();
+                        break;
+                    case ConstPitch.MODEL_BASS_OCTAVER:
+                        modelBlock = new BassOctaver();
+                        break;
+                    case ConstPitch.MODEL_TWO_VOICE_HARMONY:
+                        modelBlock = new TwoVoiceHarmony();
+                        break;
+                    case ConstPitch.MODEL_OCTI_SYNTH:
+                        modelBlock = new OctiSynth();
+                        break;
+                    case ConstPitch.MODEL_SYNTH_OMATIC:
+                        modelBlock = new SynthOMatic();
+                        break;
+                    case ConstPitch.MODEL_ATTACK_SYNTH:
+                        modelBlock = new AttackSynth();
+                        break;
+                    case ConstPitch.MODEL_SYNTH_STRING:
+                        modelBlock = new SynthString();
+                        break;
+                    case ConstPitch.MODEL_GROWLER:
+                        modelBlock = new Growler();
                         break;
                     #endregion Pitch/Synth
 

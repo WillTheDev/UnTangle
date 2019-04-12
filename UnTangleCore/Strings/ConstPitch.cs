@@ -25,5 +25,28 @@
 
         public const string DISP_3_OSC_SYNTH = "3 OSC Synth";
         public const string MODEL_3_OSC_SYNTH = "HD2_SynthSubtractive";
+
+        #region Legacy
+        public const string DISP_ATTACK_SYNTH = "Attack Synth";
+        public const string MODEL_ATTACK_SYNTH = "HD2_FM4AttackSynth";
+
+        public const string DISP_BASS_OCTAVER = "Bass Octaver";
+        public const string MODEL_BASS_OCTAVER = "HD2_DM4BassOctaver";
+
+        public const string DISP_GROWLER = "Growler";
+        public const string MODEL_GROWLER = "HD2_FM4Growler";
+
+        public const string DISP_SYNTH_OMATIC = "Synth O-Matic";
+        public const string MODEL_SYNTH_OMATIC = "HD2_FM4SynthOMatic";
+
+        public const string DISP_SYNTH_STRING = "Synth String";
+        public const string MODEL_SYNTH_STRING = "HD2_FM4SynthString";
+
+        public const string DISP_OCTI_SYNTH = "HD2_FM4OctiSynth";
+        public const string MODEL_OCTI_SYNTH = "HD2_FM4OctiSynth";
+
+        public const string DISP_TWO_VOICE_HARMONY = "Two Voice Harmony";
+        public const string MODEL_TWO_VOICE_HARMONY = "HD2_M13TwoVoiceHarmony";
+        #endregion
     };
 };

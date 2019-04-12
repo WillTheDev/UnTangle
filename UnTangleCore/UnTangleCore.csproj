@@ -289,6 +289,13 @@
     <Compile Include="Models\Modulation\Mod60sBiasTrem.cs" />
     <Compile Include="Models\Modulation\UbiquitousVibe.cs" />
     <Compile Include="Models\Output.cs" />
+    <Compile Include="Models\Pitch\Legacy\Growler.cs" />
+    <Compile Include="Models\Pitch\Legacy\SynthString.cs" />
+    <Compile Include="Models\Pitch\Legacy\AttackSynth.cs" />
+    <Compile Include="Models\Pitch\Legacy\SynthOMatic.cs" />
+    <Compile Include="Models\Pitch\Legacy\OctiSynth.cs" />
+    <Compile Include="Models\Pitch\Legacy\TwoVoiceHarmony.cs" />
+    <Compile Include="Models\Pitch\Legacy\BassOctaver.cs" />
     <Compile Include="Models\Pitch\Synth3OSCSynth.cs" />
     <Compile Include="Models\Pitch\Synth4OSCGenerator.cs" />
     <Compile Include="Models\Pitch\Synth3NoteGenerator.cs" />
