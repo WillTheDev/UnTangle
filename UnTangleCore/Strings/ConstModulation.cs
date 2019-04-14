@@ -78,7 +78,32 @@
         #endregion Rotary
 
         #region Legacy
+        public const string DISP_BARBERPOLE_PHASER = "Barberpole Phaser";
+        public const string MODEL_BARBERPOLE_PHASER = "HD2_MM4BarberpolePhaser";
 
+        public const string DISP_BIAS_TREMOLO = "Bias Tremolo";
+        public const string MODEL_BIAS_TREMOLO = "HD2_MM4BiasTremolo";
+
+        public const string DISP_DUAL_PHASER = "Dual Phaser";
+        public const string MODEL_DUAL_PHASER = "HD2_MM4DualPhaser";
+
+        public const string DISP_OPTO_TREMOLO = "Opto Tremolo";
+        public const string MODEL_OPTO_TREMOLO = "HD2_MM4OptoTremolo";
+
+        public const string DISP_PANNED_PHASER = "Panned Phaser";
+        public const string MODEL_PANNED_PHASER = "HD2_MM4PannedPhaser";
+
+        public const string DISP_PANNER = "Panner";
+        public const string MODEL_PANNER = "HD2_MM4Panner";
+
+        public const string DISP_PATTERN_TREM = "Pattern Trem";
+        public const string MODEL_PATTERN_TREM = "HD2_MM4PatternTrem";
+
+        public const string DISP_SCRIPT_PHASE = "Script Phase";
+        public const string MODEL_SCRIPT_PHASE = "HD2_MM4ScriptPhase";
+
+        public const string DISP_U_VIBE = "U Vibe";
+        public const string MODEL_U_VIBE = "HD2_MM4UVibe";
         #endregion Legacy
     };
 }

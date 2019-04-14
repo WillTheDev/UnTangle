@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>UnTangle.Core</RootNamespace>
     <AssemblyName>UnTangleCore</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -257,6 +258,15 @@
     <Compile Include="Models\Modulation\BubbleVibrato.cs" />
     <Compile Include="Models\Modulation\Chorus70sChorus.cs" />
     <Compile Include="Models\Modulation\DynamixFlanger.cs" />
+    <Compile Include="Models\Modulation\Legacy\UVibe.cs" />
+    <Compile Include="Models\Modulation\Legacy\DualPhaser.cs" />
+    <Compile Include="Models\Modulation\Legacy\BarberpolePhaser.cs" />
+    <Compile Include="Models\Modulation\Legacy\PannedPhaser.cs" />
+    <Compile Include="Models\Modulation\Legacy\ScriptPhase.cs" />
+    <Compile Include="Models\Modulation\Legacy\OptoTremolo.cs" />
+    <Compile Include="Models\Modulation\Legacy\BiasTremolo.cs" />
+    <Compile Include="Models\Modulation\Legacy\Panner.cs" />
+    <Compile Include="Models\Modulation\Legacy\PatternTrem.cs" />
     <Compile Include="Models\Modulation\PitchRingMod.cs" />
     <Compile Include="Models\Modulation\PlastiChorus.cs" />
     <Compile Include="Models\Modulation\DoubleTake.cs" />
@@ -367,7 +377,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\AmpCab\Preamp\" />
-    <Folder Include="Models\Modulation\Legacy\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

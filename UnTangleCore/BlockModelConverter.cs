@@ -18,6 +18,7 @@ using UnTangle.Core.Models.FxLoop;
 using UnTangle.Core.Models.ImpulseResponse;
 using UnTangle.Core.Models.Looper;
 using UnTangle.Core.Models.Modulation;
+using UnTangle.Core.Models.Modulation.Legacy;
 using UnTangle.Core.Models.Reverb;
 using UnTangle.Core.Models.Reverb.Legacy;
 using UnTangle.Core.Models.SendReturn;
@@ -816,6 +817,33 @@ namespace UnTangle.Core
                         break;
                     case ConstModulation.MODEL_TREMOLO:
                         modelBlock = new Tremolo();
+                        break;
+                    case ConstModulation.MODEL_PATTERN_TREM:
+                        modelBlock = new PatternTrem();
+                        break;
+                    case ConstModulation.MODEL_PANNER:
+                        modelBlock = new Panner();
+                        break;
+                    case ConstModulation.MODEL_BIAS_TREMOLO:
+                        modelBlock = new BiasTremolo();
+                        break;
+                    case ConstModulation.MODEL_OPTO_TREMOLO:
+                        modelBlock = new OptoTremolo();
+                        break;
+                    case ConstModulation.MODEL_SCRIPT_PHASE:
+                        modelBlock = new ScriptPhase();
+                        break;
+                    case ConstModulation.MODEL_PANNED_PHASER:
+                        modelBlock = new PannedPhaser();
+                        break;
+                    case ConstModulation.MODEL_BARBERPOLE_PHASER:
+                        modelBlock = new BarberpolePhaser();
+                        break;
+                    case ConstModulation.MODEL_DUAL_PHASER:
+                        modelBlock = new DualPhaser();
+                        break;
+                    case ConstModulation.MODEL_U_VIBE:
+                        modelBlock = new UVibe();
                         break;
                     #endregion Modulation
 
