@@ -845,6 +845,45 @@ namespace UnTangle.Core
                     case ConstModulation.MODEL_U_VIBE:
                         modelBlock = new UVibe();
                         break;
+                    case ConstModulation.MODEL_PHASER:
+                        modelBlock = new Phaser();
+                        break;
+                    case ConstModulation.MODEL_PITCH_VIBRATO:
+                        modelBlock = new PitchVibrato();
+                        break;
+                    case ConstModulation.MODEL_DIMMENSION:
+                        modelBlock = new Dimmension();
+                        break;
+                    case ConstModulation.MODEL_ANALOG_CHORUS:
+                        modelBlock = new AnalogChorus();
+                        break;
+                    case ConstModulation.MODEL_TRI_CHORUS:
+                        modelBlock = new TriChorus();
+                        break;
+                    case ConstModulation.MODEL_ANALOG_FLANGER:
+                        modelBlock = new AnalogFlanger();
+                        break;
+                    case ConstModulation.MODEL_JET_FLANGER:
+                        modelBlock = new JetFlanger();
+                        break;
+                    case ConstModulation.MODEL_AC_FLANGER:
+                        modelBlock = new ACFlanger();
+                        break;
+                    case ConstModulation.MODEL_80A_FLANGER:
+                        modelBlock = new ADAFlanger();
+                        break;
+                    case ConstModulation.MODEL_FREQUENCY_SHIFTER:
+                        modelBlock = new FrequencyShifter();
+                        break;
+                    case ConstModulation.MODEL_RING_MODULATOR:
+                        modelBlock = new RingModulator();
+                        break;
+                    case ConstModulation.MODEL_ROTARY_DRUM:
+                        modelBlock = new RotaryDrum();
+                        break;
+                    case ConstModulation.MODEL_ROTARY_DRUM_HORN:
+                        modelBlock = new RotaryDrumHorn();
+                        break;
                     #endregion Modulation
 
 

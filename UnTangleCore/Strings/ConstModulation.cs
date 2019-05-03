@@ -78,11 +78,32 @@
         #endregion Rotary
 
         #region Legacy
+        public const string DISP_80A_FLANGER = "80A Flanger";
+        public const string MODEL_80A_FLANGER = "HD2_M1380AFlanger";
+
+        public const string DISP_AC_FLANGER = "AC Flanger";
+        public const string MODEL_AC_FLANGER = "HD2_M13ACFlanger";
+
+        public const string DISP_ANALOG_CHORUS = "Analog Chorus";
+        public const string MODEL_ANALOG_CHORUS = "HD2_MM4AnalogChorus";
+
+        public const string DISP_ANALOG_FLANGER = "Analog Flanger";
+        public const string MODEL_ANALOG_FLANGER = "HD2_MM4AnalogFlanger";
+
         public const string DISP_BARBERPOLE_PHASER = "Barberpole Phaser";
         public const string MODEL_BARBERPOLE_PHASER = "HD2_MM4BarberpolePhaser";
 
         public const string DISP_BIAS_TREMOLO = "Bias Tremolo";
         public const string MODEL_BIAS_TREMOLO = "HD2_MM4BiasTremolo";
+
+        public const string DISP_DIMMENSION = "Dimmension";
+        public const string MODEL_DIMMENSION = "HD2_MM4Dimension";
+
+        public const string DISP_FREQUENCY_SHIFTER = "Frequency Shifter";
+        public const string MODEL_FREQUENCY_SHIFTER = "HD2_MM4FrequencyShifter";
+
+        public const string DISP_JET_FLANGER = "Jet Flanger";
+        public const string MODEL_JET_FLANGER = "HD2_MM4JetFlanger";
 
         public const string DISP_DUAL_PHASER = "Dual Phaser";
         public const string MODEL_DUAL_PHASER = "HD2_MM4DualPhaser";
@@ -99,8 +120,26 @@
         public const string DISP_PATTERN_TREM = "Pattern Trem";
         public const string MODEL_PATTERN_TREM = "HD2_MM4PatternTrem";
 
+        public const string DISP_PHASER = "Phaser";
+        public const string MODEL_PHASER = "HD2_MM4Phaser";
+
+        public const string DISP_PITCH_VIBRATO = "Pitch Vibrato";
+        public const string MODEL_PITCH_VIBRATO = "HD2_MM4PitchVibrato";
+
+        public const string DISP_RING_MODULATOR = "Ring Modulator";
+        public const string MODEL_RING_MODULATOR = "HD2_MM4RingModulator";
+
+        public const string DISP_ROTARY_DRUM = "Rotary Drum";
+        public const string MODEL_ROTARY_DRUM = "HD2_MM4RotaryDrum";
+
+        public const string DISP_ROTARY_DRUM_HORN = "Rotary Drum Horn";
+        public const string MODEL_ROTARY_DRUM_HORN = "HD2_MM4RotaryDrumHorn";
+
         public const string DISP_SCRIPT_PHASE = "Script Phase";
         public const string MODEL_SCRIPT_PHASE = "HD2_MM4ScriptPhase";
+
+        public const string DISP_TRI_CHORUS = "Tri Chorus";
+        public const string MODEL_TRI_CHORUS = "HD2_MM4TriChorus";
 
         public const string DISP_U_VIBE = "U Vibe";
         public const string MODEL_U_VIBE = "HD2_MM4UVibe";
