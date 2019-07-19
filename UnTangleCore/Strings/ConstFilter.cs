@@ -5,6 +5,9 @@
     /// </summary>
     public static class ConstFilter
     {
+        public const string DISP_ASHEVILLE_PATTRN = "Asheville Pattrn";
+        public const string MODEL_ASHEVILLE_PATTERN = "HD2_FilterAshevillePattrn";
+
         public const string DISP_AUTO_FILTER = "Auto Filter";
         public const string MODEL_AUTO_FILTER = "HD2_FilterAutoFilter";
 

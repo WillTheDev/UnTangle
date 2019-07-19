@@ -5,6 +5,9 @@
     /// </summary>
     public static class ConstDistortion
     {
+        public const string DISP_AMPEG_SCRAMBLER_OD = "Ampeg Scrambler OD";
+        public const string MODEL_AMPEG_SCRAMBLER_OD = "HD2_DistAmpegScramblerOD";
+
         public const string DISP_ARBITRATOR_FUZZ = "Arbitrator Fuzz";
         public const string MODEL_ARBITRATOR_FUZZ = "HD2_DistArbitratorFuzz";
 
@@ -20,6 +23,9 @@
         public const string DISP_DERANGED_MASTER = "Deranged Master";
         public const string MODEL_DERANGEDMASTER = "HD2_DistDerangedMaster";
 
+        public const string DISP_DHYANA_DRIVE = "Dhyana Drive";
+        public const string MODEL_DHYANA_DRIVE = "HD2_DistDhyanaDrive";
+
         public const string DISP_SCREAM_808 = "Scream 808";
         public const string MODEL_SCREAM_808 = "HD2_DistScream808";
 
@@ -28,6 +34,9 @@
 
         public const string DISP_CLAWTHORN_DRIVE = "Clawthorn Drive";
         public const string MODEL_CLAWTHORN_DRIVE = "HD2_DistClawthornDrive";
+
+        public const string DISP_HEIR_APPARENT = "Heir Apparent";
+        public const string MODEL_HEIR_APPARENT = "HD2_DistHeirApparent";
 
         public const string DISP_KINKY_BOOST = "Kinky Boost";
         public const string MODEL_KINKY_BOOST = "HD2_DistKinkyBoost";
@@ -56,6 +65,9 @@
         public const string DISP_THRIFTER_FUZZ = "Thrifter Fuzz";
         public const string MODEL_THRIFTER_FUZZ = "HD2_DistThrifterFuzz";
 
+        public const string DISP_TONE_SOVEREIGN = "Tone Sovereign";
+        public const string MODEL_TONE_SOVEREIGN = "HD2_DistToneSovereign";
+
         public const string DISP_TOP_SECRET_OD = "Top Secret OD";
         public const string MODEL_TOP_SECRET_OD = "HD2_DistTopSecretOD";
 
@@ -76,6 +88,9 @@
 
         public const string DISP_VALVE_DRIVER = "Valve Driver";
         public const string MODEL_VALVE_DRIVER = "HD2_DistValveDriver";
+
+        public const string DISP_ZERO_AMP_BASS_DI = "Zero Amp Bass DI";
+        public const string MODEL_ZERO_AMP_BASS_DI = "HD2_DistZeroAmpBassDI";
 
         #region Legacy
         public const string DISP_BUZZ_SAW = "Buzz Saw";

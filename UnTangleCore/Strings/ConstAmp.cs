@@ -110,6 +110,11 @@
         public const string MODEL_CALI_IV_LEAD = "HD2_AmpCaliIVLead";
         #endregion Mesa Boogie
 
+        #region Revv
+        public const string DISP_REVV_GEN_RED = "Revv Gen Red";
+        public const string MODEL_REVV_GEN_RED = "HD2_AmpRevvGenRed";
+        #endregion Revv
+
         #region Friedman
         public const string DISP_PLACATER_DIRTY = "Placater Dirty";
         public const string MODEL_PLACATER_DIRTY = "HD2_AmpPlacaterDirty";

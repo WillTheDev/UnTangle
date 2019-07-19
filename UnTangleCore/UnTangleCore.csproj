@@ -30,6 +30,7 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\UnTangleCore.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -69,6 +70,7 @@
     <Compile Include="Models\AmpCab\Amp\BritTremBrt.cs" />
     <Compile Include="Models\AmpCab\Amp\BritTremJump.cs" />
     <Compile Include="Models\AmpCab\Amp\BritTremNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\RevvGenRed.cs" />
     <Compile Include="Models\AmpCab\Amp\CaliIVLead.cs" />
     <Compile Include="Models\AmpCab\Amp\CaliIVR2.cs" />
     <Compile Include="Models\AmpCab\Amp\CaliIVR1.cs" />
@@ -178,6 +180,11 @@
     <Compile Include="Models\Delay\SwellVintageDigital.cs" />
     <Compile Include="Models\Delay\TransistorTape.cs" />
     <Compile Include="Models\Delay\VintageDigitalV2.cs" />
+    <Compile Include="Models\Distortion\AmpegScramblerOD.cs" />
+    <Compile Include="Models\Distortion\ZeroAmpBassDI.cs" />
+    <Compile Include="Models\Distortion\DhyanaDrive.cs" />
+    <Compile Include="Models\Distortion\ToneSovereign.cs" />
+    <Compile Include="Models\Distortion\HeirApparent.cs" />
     <Compile Include="Models\Distortion\Legacy\Screamer.cs" />
     <Compile Include="Models\Distortion\Legacy\Overdrive.cs" />
     <Compile Include="Models\Distortion\Legacy\ClassicDistortion.cs" />
@@ -235,7 +242,9 @@
     <Compile Include="Models\Dynamics\NoiseGate.cs" />
     <Compile Include="Models\Dynamics\RedSqueeze.cs" />
     <Compile Include="Models\EQ\CaliQ.cs" />
+    <Compile Include="Models\EQ\LowShelfHighShelf.cs" />
     <Compile Include="Models\EQ\Parametric.cs" />
+    <Compile Include="Models\EQ\SimpleTilt.cs" />
     <Compile Include="Models\Filter\AutoFilter.cs" />
     <Compile Include="Models\Filter\Legacy\SlowFilter.cs" />
     <Compile Include="Models\Filter\Legacy\CometTrails.cs" />
@@ -248,6 +257,7 @@
     <Compile Include="Models\Filter\Legacy\Throbber.cs" />
     <Compile Include="Models\Filter\Legacy\SpinCycle.cs" />
     <Compile Include="Models\Filter\Legacy\VoiceBox.cs" />
+    <Compile Include="Models\Filter\AshevillePattrn.cs" />
     <Compile Include="Models\Filter\MysteryFilter.cs" />
     <Compile Include="Models\Filter\MutantFilter.cs" />
     <Compile Include="Models\FxLoop\FXLoopRight.cs" />

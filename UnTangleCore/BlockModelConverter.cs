@@ -280,6 +280,9 @@ namespace UnTangle.Core
                     case ConstAmp.MODEL_LINE6_EPIC:
                         modelBlock = new Line6Epic();
                         break;
+                    case ConstAmp.MODEL_REVV_GEN_RED:
+                        modelBlock = new RevvGenRed();
+                        break;
                     #endregion Amp
 
 
@@ -589,6 +592,21 @@ namespace UnTangle.Core
                     case ConstDistortion.MODEL_SUB_OCTAVE_FUZZ:
                         modelBlock = new SubOctaveFuzz();
                         break;
+                    case ConstDistortion.MODEL_HEIR_APPARENT:
+                        modelBlock = new HeirApparent();
+                        break;
+                    case ConstDistortion.MODEL_TONE_SOVEREIGN:
+                        modelBlock = new ToneSovereign();
+                        break;
+                    case ConstDistortion.MODEL_DHYANA_DRIVE:
+                        modelBlock = new DhyanaDrive();
+                        break;
+                    case ConstDistortion.MODEL_ZERO_AMP_BASS_DI:
+                        modelBlock = new ZeroAmpBassDI();
+                        break;
+                    case ConstDistortion.MODEL_AMPEG_SCRAMBLER_OD:
+                        modelBlock = new AmpegScramblerOD();
+                        break;
                     #endregion Distortion
 
 
@@ -648,6 +666,9 @@ namespace UnTangle.Core
                     case ConstEQ.MODEL_LOW_CUT_HIGH_CUT:
                         modelBlock = new LowCutHighCut();
                         break;
+                    case ConstEQ.MODEL_LOW_SHELF_HIGH_SHELF:
+                        modelBlock = new LowShelfHighShelf();
+                        break;
                     case ConstEQ.MODEL_GRAPHIC_10_BAND:
                         modelBlock = new Graphic10Band();
                         break;
@@ -659,6 +680,9 @@ namespace UnTangle.Core
                         break;
                     case ConstEQ.MODEL_CALI_Q:
                         modelBlock = new CaliQ();
+                        break;
+                    case ConstEQ.DISP_SIMPLE_TILT:
+                        modelBlock = new SimpleTilt();
                         break;
                     #endregion EQ
 
@@ -680,6 +704,9 @@ namespace UnTangle.Core
 
 
                     #region Filter
+                    case ConstFilter.DISP_ASHEVILLE_PATTRN:
+                        modelBlock = new AshevillePattrn();
+                        break;
                     case ConstFilter.MODEL_AUTO_FILTER:
                         modelBlock = new AutoFilter();
                         break;

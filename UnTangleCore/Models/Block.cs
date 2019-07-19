@@ -43,6 +43,10 @@ namespace UnTangle.Core.Models
         [JsonProperty(PropertyName = "@trails")]
         public bool Trails { get; set; }
 
+        [DataMember]
+        [JsonProperty(PropertyName = "@no_snapshot_bypass")]
+        public bool NoSnapshotBypass { get; set; }
+
         /// <summary>
         /// String representation of the model type.
         /// </summary>
