@@ -44,7 +44,29 @@
         public const string DISP_A30_FAWN_BRT = "A30 Fawn Brt";
         public const string MODEL_A30_FAWN_BRT = "HD2_AmpA30FawnBrt";
         #endregion Vox
-        
+
+        #region Fender
+        public const string DISP_FULLERTON_NRM = "Fullerton Nrm";
+        public const string MODEL_FULLERTON_NRM = "HD2_AmpFullertonNrm";
+
+        public const string DISP_FULLERTON_BRT = "Fullerton Brt";
+        public const string MODEL_FULLERTON_BRT = "HD2_AmpFullertonBrt";
+
+        public const string DISP_FULLERTON_JUMP = "Fullerton Jump";
+        public const string MODEL_FULLERTON_JUMP = "HD2_AmpFullertonJump";
+        #endregion Fender
+
+        #region Grammatico
+        public const string DISP_GRAMMATICO_NRM = "Grammatico Nrm";
+        public const string MODEL_GRAMMATICO_NRM = "HD2_AmpGrammaticoNrm";
+
+        public const string DISP_GRAMMATICO_BRT = "Grammatico Brt";
+        public const string MODEL_GRAMMATICO_BRT = "HD2_AmpGrammaticoBrt";
+
+        public const string DISP_GRAMMATICO_JUMP = "Grammatico Jump";
+        public const string MODEL_GRAMMATICO_JUMP = "HD2_AmpGrammaticoJump";
+        #endregion Grammatico
+
         public const string DISP_WHO_WATT_100 = "Who Watt 100";
         public const string MODEL_WHO_WATT_100 = "HD2_AmpWhoWatt100";
 

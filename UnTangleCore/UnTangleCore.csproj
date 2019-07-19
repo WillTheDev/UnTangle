@@ -70,6 +70,11 @@
     <Compile Include="Models\AmpCab\Amp\BritTremBrt.cs" />
     <Compile Include="Models\AmpCab\Amp\BritTremJump.cs" />
     <Compile Include="Models\AmpCab\Amp\BritTremNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\GrammaticoJump.cs" />
+    <Compile Include="Models\AmpCab\Amp\GrammaticoBrt.cs" />
+    <Compile Include="Models\AmpCab\Amp\GrammaticoNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\FullertonJump.cs" />
+    <Compile Include="Models\AmpCab\Amp\FullertonBrt.cs" />
     <Compile Include="Models\AmpCab\Amp\RevvGenRed.cs" />
     <Compile Include="Models\AmpCab\Amp\CaliIVLead.cs" />
     <Compile Include="Models\AmpCab\Amp\CaliIVR2.cs" />
@@ -109,6 +114,7 @@
     <Compile Include="Models\AmpCab\Amp\StoneAge185.cs" />
     <Compile Include="Models\AmpCab\Amp\TweedBluesBrt.cs" />
     <Compile Include="Models\AmpCab\Amp\TweedBluesNrm.cs" />
+    <Compile Include="Models\AmpCab\Amp\FullertonNrm.cs" />
     <Compile Include="Models\AmpCab\Amp\USDeluxeVib.cs" />
     <Compile Include="Models\AmpCab\Amp\USDeluxeNrm.cs" />
     <Compile Include="Models\AmpCab\Amp\USDoubleNrm.cs" />

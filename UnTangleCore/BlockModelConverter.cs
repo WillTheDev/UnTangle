@@ -283,6 +283,24 @@ namespace UnTangle.Core
                     case ConstAmp.MODEL_REVV_GEN_RED:
                         modelBlock = new RevvGenRed();
                         break;
+                    case ConstAmp.MODEL_FULLERTON_NRM:
+                        modelBlock = new FullertonNrm();
+                        break;
+                    case ConstAmp.MODEL_FULLERTON_BRT:
+                        modelBlock = new FullertonBrt();
+                        break;
+                    case ConstAmp.MODEL_FULLERTON_JUMP:
+                        modelBlock = new FullertonJump();
+                        break;
+                    case ConstAmp.MODEL_GRAMMATICO_NRM:
+                        modelBlock = new GrammaticoNrm();
+                        break;
+                    case ConstAmp.MODEL_GRAMMATICO_BRT:
+                        modelBlock = new GrammaticoBrt();
+                        break;
+                    case ConstAmp.MODEL_GRAMMATICO_JUMP:
+                        modelBlock = new GrammaticoJump();
+                        break;
                     #endregion Amp
 
 
