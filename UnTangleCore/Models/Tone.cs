@@ -61,5 +61,9 @@ namespace UnTangle.Core.Models
         [JsonProperty(PropertyName = "irUuidTable")]
         public IrUuidTable IrUuidTable { get; set; }
 
+        [DataMember]
+        [JsonProperty(PropertyName = "variax")]
+        public Variax Variax { get; set; }
+
     };
 }

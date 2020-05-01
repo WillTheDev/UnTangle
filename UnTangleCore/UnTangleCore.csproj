@@ -374,6 +374,7 @@
     <Compile Include="Models\SnapshotDsp.cs" />
     <Compile Include="Models\Split.cs" />
     <Compile Include="Models\Tone.cs" />
+    <Compile Include="Models\Variax.cs" />
     <Compile Include="Models\VolumePan\Gain.cs" />
     <Compile Include="Models\VolumePan\Volume.cs" />
     <Compile Include="Models\Wah\Conductor.cs" />
