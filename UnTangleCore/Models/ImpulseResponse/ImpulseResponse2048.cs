@@ -31,5 +31,8 @@ namespace UnTangle.Core.Models.ImpulseResponse
 
         [DataMember]
         public float LowCut { get; set; }
+
+        [DataMember(Name = "@uuid")]
+        public string uuid { get; set; }
     };
 }

@@ -57,7 +57,9 @@ namespace UnTangle.Core.Models
         [JsonProperty(PropertyName = "footswitch")]
         public Footswitch Footswitch { get; set; }
 
-
+        [DataMember]
+        [JsonProperty(PropertyName = "irUuidTable")]
+        public IrUuidTable IrUuidTable { get; set; }
 
     };
 }
